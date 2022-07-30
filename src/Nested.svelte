@@ -1,5 +1,5 @@
 <script>
-    export let answer = -9999;
+    export let answer = 'a mystery'
 </script>
 
 <p>this answer is {answer}</p>
