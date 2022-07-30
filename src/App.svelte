@@ -1,9 +1,9 @@
 <script>
-    import Inner from "./Inner.svelte";
+    import Outer from "./Outer.svelte";
 
-    let handleMessage = (event) => {
+    function handleMessage(event) {
         alert(event.detail.text)
     };
 </script>
 
-<Inner on:message={handleMessage} />
+<Outer on:message={handleMessage}/>
