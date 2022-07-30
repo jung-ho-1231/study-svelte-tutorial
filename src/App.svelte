@@ -1,19 +1,11 @@
 <script>
-    let user = {loggedIn: false}
-
-    function toggle() {
-        user.loggedIn = !user.loggedIn;
-    }
+    let x = 7;
 </script>
 
-{#if user.loggedIn}
-    <button on:click={() => toggle()}>
-        Log out
-    </button>
-{/if}
-
-{#if !user.loggedIn}
-    <button on:click={() => toggle()}>
-        Log in
-    </button>
+{#if x > 10}
+    <p>{x} is grater then 10</p>
+{:else if x > 5}
+    <p>{x} is less then 5</p>
+{:else}
+    <p>{x} is between 5 and 10</p>
 {/if}
