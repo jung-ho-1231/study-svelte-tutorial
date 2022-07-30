@@ -1,5 +1,9 @@
-<script>
-    let src= '/vite.svg'
-</script>
+<p>This is a paragraph.</p>
 
-<img src="{src}" alt="svelte">
+<style>
+    p {
+        color: purple;
+        font-family: "Comic Sans MS", cursive;
+        font-size: 2em;
+    }
+</style>
