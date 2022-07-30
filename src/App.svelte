@@ -1,5 +1,5 @@
 <script>
-  let name = 'world';
+    let src= '/vite.svg'
 </script>
 
-<h1> Hello {name.toUpperCase()}</h1>
+<img src="{src}" alt="svelte">
